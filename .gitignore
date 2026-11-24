@@ -1,0 +1,25 @@
+# Diablo II game files used by d2-mapgen (copyrighted, ~2 GB): never commit
+dep/mapgen/game/
+
+# Data the game/mapgen writes at runtime (.ma0 is ~80 MB)
+dep/mapgen/Save/
+
+# Node dependencies of the crop helper
+node_modules/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Editor / OS
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
